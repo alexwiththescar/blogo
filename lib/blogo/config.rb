@@ -31,7 +31,7 @@ module Blogo
       @recent_posts        = 5
       @disqus_shortname    = nil
       @google_analytics_id = nil
-      @use_ckeditor        = true
+      @use_ckeditor        = false
       @keywords            = %w(blog)
       @markup_lang         = :markdown
       @show_rss_icon       = true
