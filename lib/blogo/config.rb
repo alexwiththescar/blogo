@@ -23,8 +23,8 @@ module Blogo
 
     # Set default values.
     def initialize
-      @site_title          = 'Blogo'
-      @site_subtitle       = 'Mountable blog engine for Ruby on Rails'
+      @site_title          = 'Musings_&_Code'
+      @site_subtitle       = ''
       @table_name_prefix   = 'blogo_'
       @posts_per_page      = 10
       @paginator_size      = 5
@@ -33,7 +33,7 @@ module Blogo
       @google_analytics_id = nil
       @use_ckeditor        = true
       @keywords            = %w(blog)
-      @markup_lang         = :html
+      @markup_lang         = :markdown
       @show_rss_icon       = true
     end
 
